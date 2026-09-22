@@ -43,6 +43,6 @@ public class OtherStringMethods {
      * @return - an array of Strings that represent s1 split by splitAround.
      */
     public String[] splitStringIntoMultipleStrings(String s1, String splitAround) {
-        return s.substring(start,end);
+        return s.split(splitAroun);
     }
 }
